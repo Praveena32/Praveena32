@@ -36,7 +36,7 @@
 <table>
   <tr>
     <td width="25%" valign="middle" align="center">
-      <img src="watermarked_img_12106745247608223150.png" width="100%" style="border-radius: 10px;" alt="Octocat Hoodie Mascot" />
+      <img src="femalecodertocat.png" width="100%" style="border-radius: 10px;" alt="Octocat Hoodie Mascot" />
     </td>
     <td width="75%" valign="middle">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praveena32&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats" />
