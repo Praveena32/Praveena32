@@ -4,7 +4,7 @@
 <p align="center">
 Building innovative, user-centered digital experiences through software engineering, AI, and design.
 </p>
-
+![](https://komarev.com/ghpvc/?username=Praveena32&color=blue)
 ---
 
 ## 👩‍💻 About Me
