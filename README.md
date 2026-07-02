@@ -3,7 +3,7 @@
   <tr>
     <td width="60%" valign="middle">
       <br />
-      <img src="src="assets/Gemini_Generated_Image_vqdnsuvqdnsuvqdn.png"" alt="Typing SVG" />
+      <img src="Gemini_Generated_Image_lu4ntklu4ntklu4n.png" alt="Typing SVG" />
       <br /><br />
       <p><strong>Building innovative, user-centered digital experiences through software engineering, AI, and design.</strong></p>
       <br />
