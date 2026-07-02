@@ -1,32 +1,38 @@
 <!-- HEADER / HERO LAYOUT WITH TOP AVATAR -->
-<table>
-  <tr>
-    <td width="60%" valign="middle">
+<p align="left"><h1>Hi there👋,<br>
+<align="center">I'm <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=2000&color=8A2BE2&center=false&vCenter=true&width=400&height=45&lines=Praveena+Buddhini" alt="Praveena Buddhini" valign="middle" />
+<br/>
+<samp align="left"><br>
+  <b><p align="center"> &lt; Software Engineer | Full-Stack Developer | Mobile App Developer |   UI/UX Designer | AI Enthusiast /&gt;</p></b>
+<br>
+  
+<img src="can_u_make_this_as_a_animated (1) (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
       <br />
-      <img src="Gemini_Generated_Image_lu4ntklu4ntklu4n.png" alt="Typing SVG" />
-      <br /><br />
-      <p><strong>Building innovative, user-centered digital experiences through software engineering, AI, and design.</strong></p>
-      <br />
+      <p align="left"><h4>Passionate about building innovative, user-centered digital experiences through software engineering, AI, and design.
+      </p><br><br><br>
+<p align="left"><strong>
+  $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT Undergraduate}}\space}}$ 
+  $\color{#DF009F}{\boxed{\space\color{#DF009F}{\text{📍 Kalutara, Sri Lanka}}\space}}$ <br/><br>
+ <p align="center"> $\color{#FF007F}{\boxed{\space\color{#FF007F}{\text{🚀 Always Learning}}\space}}$
+ </p></strong>
+      <br><br>
       <img src="https://komarev.com/ghpvc/?username=Praveena32&color=blue&style=flat-square" alt="Profile Views" />
-    </td>
-    <td width="40%" valign="middle" align="center">
-      <img src="watermarked_img_14429649447449703541.png" width="100%" style="border-radius: 12px;" alt="Praveena Coding" />
-    </td>
-  </tr>
-</table>
+    <td width="100%" valign="middle" align="center">
+</p>
+</samp>
+<br clear="right" />
 
+### 🛠️ Dashboard
+        
 ---
 
-## 🛠️ Dashboard
-
-### 👩‍💻 About Me
+## 👩‍💻 About Me
 
 - 🎓 Third-Year **Bachelor of Information and Communication Technology (Honours)** Undergraduate at the **University of Vavuniya**
 - 💻 Passionate about **Software Engineering**, **Full-Stack Development**, **Mobile App Development**, and **UI/UX Design**
 - 🌱 Currently learning **React Native**, **Docker**, **Java**, **.NET**, and modern software engineering practices
-- 🤖 Interested in **Artificial Intelligence**, **Prompt Engineering**, and Human-Centered Design
+- 🤖 Interested in **Artificial Intelligence**, **Prompt Engineering**, **Java** and Human-Centered Design
 - 🚀 Love turning ideas into real-world applications
-- 📍 Sri Lanka 🇱🇰
 
 ---
 
