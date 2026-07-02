@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveena Buddhini | Portfolio</title>
+    
+    <!-- FontAwesome Icons & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-darker: #030712;
+            --bg-card: #0b132b;
+            --bg-card-header: #111a36;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-pink: #d946ef;
+            --accent-cyan: #06b6d4;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --neon-glow: 0 0 20px rgba(139, 92, 246, 0.25);
+            --grid-green-1: #0e4429;
+            --grid-green-2: #006d32;
+            --grid-green-3: #26a641;
+            --grid-green-4: #39d353;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-darker);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            animation: fadeInPage 1s ease-out;
+        }
+
+        /* --- ANIMATIONS --- */
+        @keyframes fadeInPage {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseGlow {
+            0% { box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
+            50% { box-shadow: 0 0 25px rgba(139, 92, 246, 0.4); }
+            100% { box-shadow: 0 0 15px rgba(139, 92, 246, 0.2); }
+        }
+
+        @keyframes floatEffect {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* --- HEADER HERO --- */
+        .header-card {
+            background: linear-gradient(135deg, #0b132b 0%, #151233 100%);
+            border: 1px solid rgba(139, 92, 246, 0.15);
+            border-radius: 16px;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-shadow: var(--neon-glow);
+        }
+
+        .header-left {
+            max-width: 60%;
+        }
+
+        .header-left h1 {
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .header-left h1 span.name {
+            color: var(--accent-pink);
+            text-shadow: 0 0 10px rgba(217, 70, 239, 0.3);
+        }
+
+        .header-left h1 span.surname {
+            color: var(--accent-cyan);
+        }
+
+        .subtitle {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-family: 'Fira Code', monospace;
+            line-height: 1.5;
+        }
+
+        .tagline {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            line-height: 1.6;
+            font-size: 1.05rem;
+        }
+
+        .pill-container {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pill {
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .pill-purple { background: rgba(139, 92, 246, 0.15); color: #c084fc; border-color: rgba(139, 92, 246, 0.3); }
+        .pill-pink { background: rgba(217, 70, 239, 0.15); color: #f472b6; border-color: rgba(217, 70, 239, 0.3); }
+        .pill-blue { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3); }
+
+        .header-right {
+            width: 320px;
+            height: 320px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: floatEffect 5s ease-in-out infinite;
+        }
+
+        /* Glow effects around illustration */
+        .illustration-bg {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.2) 0%, rgba(0,0,0,0) 70%);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .avatar-frame {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--accent-purple), var(--accent-pink));
+            padding: 3px;
+            z-index: 2;
+            animation: pulseGlow 4s infinite;
+        }
+
+        .avatar-inside {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #0f1123;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Place your vector illustration image path inside the src attribute below if available */
+        .avatar-inside img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .avatar-inside i {
+            font-size: 5rem;
+            color: rgba(255,255,255,0.15);
+        }
+
+        /* --- QUICK STATS METRICS --- */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+
+        .stat-box {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+
+        .stat-box:hover {
+            border-color: rgba(139, 92, 246, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .stat-box i {
+            color: var(--accent-purple);
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 6px;
+        }
+
+        .stat-value {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        .time-box .time {
+            font-size: 1.15rem;
+            color: var(--accent-cyan);
+            font-family: 'Fira Code', monospace;
+            margin-top: 4px;
+        }
+
+        /* --- DASHBOARD CONTENT PANELS --- */
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 850px) {
+            .grid-2col { grid-template-columns: 1fr; }
+            .header-card { flex-direction: column; text-align: center; padding: 30px; }
+            .header-left { max-width: 100%; margin-bottom: 30px; }
+            .pill-container { justify-content: center; }
+        }
+
+        .panel {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 14px;
+            padding: 24px;
+        }
+
+        .panel-title {
+            font-size: 1.15rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding-bottom: 10px;
+            color: #f3f4f6;
+            font-weight: 600;
+        }
+
+        .panel-title i {
+            color: var(--accent-purple);
+        }
+
+        .about-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            font-size: 0.95rem;
+            color: #d1d5db;
+        }
+
+        .about-list li {
+            display: flex;
+            gap: 12px;
+            line-height: 1.5;
+        }
+
+        /* Git Metrics Inner Panel styling */
+        .github-stats-wrapper {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 16px;
+        }
+
+        @media (max-width: 480px) {
+            .github-stats-wrapper { grid-template-columns: 1fr; }
+        }
+
+        .inner-stat-card {
+            background: rgba(255, 255, 255, 0.015);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 16px;
+        }
+
+        .inner-stat-card h4 {
+            color: var(--accent-blue);
+            margin-bottom: 12px;
+            font-size: 1rem;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.88rem;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .stat-row:last-child { border-bottom: none; }
+
+        .grade-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-grade {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid var(--accent-pink);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+            box-shadow: 0 0 15px rgba(217, 70, 239, 0.2);
+        }
+
+        /* --- METRICS SUBGRID ROW --- */
+        .grid-3col {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr 1.5fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 950px) {
+            .grid-3col { grid-template-columns: 1fr; }
+        }
+
+        .streak-container {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .streak-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #f97316;
+            text-shadow: 0 0 10px rgba(249, 115, 22, 0.2);
+            margin-bottom: 4px;
+        }
+
+        .donut-chart-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            height: 100%;
+        }
+
+        .donut {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            background: conic-gradient(
+                var(--accent-blue) 0% 33.4%,
+                var(--accent-purple) 33.4% 60.5%,
+                var(--accent-pink) 60.5% 75.2%,
+                #eab308 75.2% 84.1%,
+                #22c55e 84.1% 90.5%,
+                #6b7280 90.5% 100%
+            );
+            position: relative;
+        }
+
+        /* Clear center cut out for donut chart */
+        .donut::after {
+            content: '';
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            background-color: var(--bg-card);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .chart-legend {
+            font-size: 0.82rem;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 100%;
+        }
+
+        .legend-item { display: flex; align-items: center; justify-content: space-between; }
+        .legend-label { display: flex; align-items: center; gap: 8px; }
+        .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+        /* Commit Heatmap simulation grid layout */
+        .contrib-graph {
+            display: grid;
+            grid-template-columns: repeat(28, 1fr);
+            gap: 4px;
+            margin-top: 12px;
+        }
+
+        .graph-cell {
+            aspect-ratio: 1;
+            background-color: #161b22;
+            border-radius: 2px;
+        }
+        .graph-cell.v1 { background-color: var(--grid-green-1); }
+        .graph-cell.v2 { background-color: var(--grid-green-2); }
+        .graph-cell.v3 { background-color: var(--grid-green-3); }
+        .graph-cell.v4 { background-color: var(--grid-green-4); }
+
+        /* --- SKILLS TECH STACK --- */
+        .tech-stack-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 16px;
+        }
+
+        .tech-category {
+            background: rgba(255, 255, 255, 0.015);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 16px;
+        }
+
+        .tech-category h5 {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding-bottom: 6px;
+        }
+
+        .tech-icons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tech-badge-mini {
+            background: #111827;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #e5e7eb;
+        }
+
+        /* --- PORTFOLIO CASE CARDS --- */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .project-card {
+            background: #0e1731;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 180px;
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.15);
+        }
+
+        .project-card h4 {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .project-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        /* --- FOOTER ELEMENTS --- */
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-grid { grid-template-columns: 1fr; }
+        }
+
+        .contact-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            font-size: 0.95rem;
+        }
+
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .contact-list a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-list a:hover {
+            color: var(--accent-pink);
+            text-decoration: underline;
+        }
+
+        .bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding-top: 20px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HERO PANEL BANNER -->
+    <header class="header-card">
+        <div class="header-left">
+            <h1>Hi there 👋<br>I'm <span class="name">Praveena</span> <span class="surname">Buddhini</span></h1>
+            <div class="subtitle">&lt; Software Engineering Student | Full-Stack Developer | Mobile App Developer | UI/UX Designer /&gt;</div>
+            <p class="tagline">Passionate about building innovative, user-centered digital solutions that make a difference.</p>
+            
+            <div class="pill-container">
+                <span class="pill pill-purple"><i class="fa-solid fa-graduation-cap"></i> BICT Undergraduate</span>
+                <span class="pill pill-pink"><i class="fa-solid fa-location-dot"></i> Sri Lanka</span>
+                <span class="pill pill-blue"><i class="fa-solid fa-rocket"></i> Always Learning</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="illustration-bg"></div>
+            <div class="avatar-frame">
+                <div class="avatar-inside">
+                    <!-- Drop in any absolute character URL path below if desired -->
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HORIZONTAL CORE METRICS -->
+    <section class="quick-stats">
+        <div class="stat-box">
+            <i class="fa-regular fa-eye"></i>
+            <div class="stat-label">Profile Views</div>
+            <div class="stat-value" style="color: var(--accent-pink);">2.1K+</div>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-code-branch"></i>
+            <div class="stat-label">Repositories</div>
+            <div class="stat-value">11</div>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-users"></i>
+            <div class="stat-label">Followers</div>
+            <div class="stat-value">25+</div>
+        </div>
+        <div class="stat-box">
+            <i class="fa-solid fa-user-plus"></i>
+            <div class="stat-label">Following</div>
+            <div class="stat-value">18+</div>
+        </div>
+        <div class="stat-box time-box">
+            <i class="fa-regular fa-clock"></i>
+            <div class="stat-label">Current Time</div>
+            <div class="time" id="live-clock">10:43:27 PM</div>
+            <div class="stat-label" style="font-size: 0.65rem; margin-top: 2px;">Sri Lanka</div>
+        </div>
+    </section>
+
+    <!-- CONTENT MODULES SPLIT -->
+    <div class="grid-2col">
+        <!-- Text About Me Block -->
+        <article class="panel">
+            <h3 class="panel-title"><i class="fa-regular fa-user"></i> About Me</h3>
+            <ul class="about-list">
+                <li><span>🎓</span> <div>Third-year BICT Undergraduate at the University of Vavuniya</div></li>
+                <li><span>💻</span> <div>Passionate about Software Engineering, Full-Stack Development, Mobile App Development, and UI/UX Design</div></li>
+                <li><span>🌿</span> <div>Currently learning React Native, Docker, .NET, Java, and modern dev practices</div></li>
+                <li><span>🤖</span> <div>AI enthusiast & Prompt Engineering Explorer</div></li>
+                <li><span>🚀</span> <div>Love turning ideas into real-world applications</div></li>
+            </ul>
+        </article>
+
+        <!-- Stats Graphic Panels -->
+        <article class="panel">
+            <h3 class="panel-title"><i class="fa-solid fa-chart-simple"></i> GitHub Stats</h3>
+            <div class="github-stats-wrapper">
+                <div class="inner-stat-card">
+                    <h4>Praveena32</h4>
+                    <div class="stat-row"><span>Total Contributions</span><strong>1,241</strong></div>
+                    <div class="stat-row"><span>Public Repos</span><strong>11</strong></div>
+                    <div class="stat-row"><span>Followers</span><strong>25</strong></div>
+                    <div class="stat-row"><span>Following</span><strong>18</strong></div>
+                    <div class="stat-row"><span>Joined GitHub</span><strong>Jan 2024</strong></div>
+                </div>
+                <div class="inner-stat-card grade-box">
+                    <span style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px;">Overall Rank</span>
+                    <div class="circle-grade">A+</div>
+                    <div style="font-size: 0.8rem; width: 100%;">
+                        <div class="stat-row"><span>Commits</span><span>1.2K+</span></div>
+                        <div class="stat-row"><span>PRs</span><span>15</span></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- REPO INSIGHTS TRIPLE GRID -->
+    <div class="grid-3col">
+        <!-- Contribution Streak -->
+        <article class="panel">
+            <h3 class="panel-title"><i class="fa-solid fa-fire"></i> Contribution Streak</h3>
+            <div class="streak-container">
+                <div class="streak-number">67</div>
+                <div class="stat-label">Days Current Streak</div>
+                <div style="font-size: 0.85rem; margin-top: 12px; color: var(--text-muted);">Best Streak: <strong>67 days</strong> 🔥</div>
+            </div>
+        </article>
+
+        <!-- Dynamic Language Breakdown Chart -->
+        <article class="panel">
+            <h3 class="panel-title"><i class="fa-solid fa-laptop-code"></i> Most Used Languages</h3>
+            <div class="donut-chart-wrapper">
+                <div class="donut"></div>
+                <div class="chart-legend">
+                    <div class="legend-item">
+                        <div class="legend-label"><span class="dot" style="background-color: var(--accent-blue);"></span>TypeScript</div><strong>33.4%</strong>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-label"><span class="dot" style="background-color: var(--accent-purple);"></span>JavaScript</div><strong>27.1%</strong>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-label"><span class="dot" style="background-color: var(--accent-pink);"></span>HTML</div><strong>14.7%</strong>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-label"><span class="dot" style="background-color: #eab308;"></span>CSS</div><strong>8.9%</strong>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-label"><span class="dot" style="background-color: #22c55e;"></span>Java</div><strong>6.4%</strong>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Generated Contribution Grid Array -->
+        <article class="panel">
+            <h3 class="panel-title"><i class="fa-regular fa-calendar-days"></i> Contribution Graph</h3>
+            <div style="font-size: 0.8rem; display:flex; justify-content: space-between; color: var(--text-muted); margin-bottom: 4px;">
+                <span>Dec — May History</span>
+                <span>Less <span style="color:var(--grid-green-4); letter-spacing: -2px; margin-left:2px;">■■■■</span> More</span>
+            </div>
+            <div class="contrib-graph" id="heatmap-grid">
+                <!-- Javascript will instantly inject loops here to keep code neat -->
+            </div>
+        </article>
+    </div>
+
+    <!-- TECH CAPABILITIES STACK -->
+    <section class="panel">
+        <h3 class="panel-title"><i class="fa-solid fa-layer-group"></i> Tech Stack</h3>
+        <div class="tech-stack-grid">
+            <div class="tech-category">
+                <h5>Languages</h5>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">Java</span>
+                    <span class="tech-badge-mini">C++</span>
+                    <span class="tech-badge-mini">JavaScript</span>
+                    <span class="tech-badge-mini">TypeScript</span>
+                    <span class="tech-badge-mini">PHP</span>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h5>Frontend</h5>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">React</span>
+                    <span class="tech-badge-mini">HTML5</span>
+                    <span class="tech-badge-mini">CSS3</span>
+                    <span class="tech-badge-mini">Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h5>Backend</h5>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">Node.js</span>
+                    <span class="tech-badge-mini">Express</span>
+                    <span class="tech-badge-mini">.NET</span>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h5>Mobile</h5>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">React Native</span>
+                    <span class="tech-badge-mini">Expo</span>
+                </div>
+            </div>
+            <div class="tech-category">
+                <h5>Databases</h5>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">MySQL</span>
+                    <span class="tech-badge-mini">MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWCASE REPOS -->
+    <section class="panel">
+        <div class="panel-title" style="justify-content: space-between; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 10px;">
+            <span><i class="fa-solid fa-star"></i> Featured Projects</span>
+            <span style="font-size: 0.85rem; color: var(--accent-cyan); cursor: pointer; font-weight: 500;">View more →</span>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div>
+                    <h4>📱 Nivora</h4>
+                    <p>AI-powered emotional wellness mobile application built with React Native and Expo.</p>
+                </div>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">React Native</span>
+                    <span class="tech-badge-mini">Expo</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h4>🍽️ Dishvana</h4>
+                    <p>Modern restaurant website with responsive UI and interactive user experience.</p>
+                </div>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">React</span>
+                    <span class="tech-badge-mini">Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h4>🎓 SUAMS</h4>
+                    <p>Smart University Attendance Management System.</p>
+                </div>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">PHP</span>
+                    <span class="tech-badge-mini">MySQL</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h4>🌐 Portfolio</h4>
+                    <p>Responsive portfolio showcasing projects, skills, and achievements.</p>
+                </div>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">React</span>
+                    <span class="tech-badge-mini">TypeScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div>
+                    <h4>✈️ Wannasolo</h4>
+                    <p>UI/UX prototype for a solo travel planning application.</p>
+                </div>
+                <div class="tech-icons">
+                    <span class="tech-badge-mini">Figma</span>
+                    <span class="tech-badge-mini">UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER DATA METRICS -->
+    <div class="footer-grid">
+        <section class="panel">
+            <h3 class="panel-title"><i class="fa-solid fa-trophy"></i> Achievements</h3>
+            <ul class="about-list">
+                <li><span>🥇</span> <div>Oracle Cloud Infrastructure 2025 AI Foundations Associate</div></li>
+                <li><span>🥈</span> <div>Top 11 Finalist - Hackforce'25 Salesforce Hackathon</div></li>
+                <li><span>🥉</span> <div>6th Place - INNOVA Ideathon 2025 (IEEE)</div></li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h3 class="panel-title"><i class="fa-solid fa-link"></i> Connect With Me</h3>
+            <ul class="contact-list">
+                <li><i class="fa-brands fa-linkedin" style="color: #0077b5;"></i> <a href="https://linkedin.com/in/praveena-buddhini" target="_blank">linkedin.com/in/praveena-buddhini</a></li>
+                <li><i class="fa-regular fa-envelope" style="color: #ea4335;"></i> <a href="mailto:mpbkalpana22@gmail.com">mpbkalpana22@gmail.com</a></li>
+                <li><i class="fa-solid fa-globe" style="color: var(--accent-cyan);"></i> <a href="https://praveenabuddhini.vercel.app" target="_blank">praveenabuddhini.vercel.app</a></li>
+                <li><i class="fa-solid fa-location-dot" style="color: var(--accent-pink);"></i> <span>Sri Lanka 🇱🇰</span></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- TERMINAL CLOSING BAR -->
+    <footer class="bottom-bar">
+        <span style="color: var(--accent-pink); font-weight: 500;">Thanks for visiting! Have a great day! ✨</span>
+        <span><i class="fa-regular fa-eye" style="margin-right: 4px;"></i> Visitor Count: <strong style="font-family: 'Fira Code', monospace; background: #111827; padding: 4px 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">00213</strong></span>
+    </footer>
+
+</div>
+
+<!-- Interactive Engine Logic Script -->
+<script>
+    // 1. Live Functional Interface Clock
+    function updateLiveClock() {
+        const clockElement = document.getElementById('live-clock');
+        const now = new Date();
+        clockElement.textContent = now.toLocaleTimeString('en-US', { hour12: true });
+    }
+    setInterval(updateLiveClock, 1000);
+    updateLiveClock();
+
+    // 2. Automated Contribution Graph Random Color Distributor
+    const heatmapGrid = document.getElementById('heatmap-grid');
+    const totalCells = 112; // 28 columns x 4 pseudo rows
+    
+    for (let i = 0; i < totalCells; i++) {
+        const cell = document.createElement('div');
+        cell.classList.add('graph-cell');
+        
+        // Random distribution weight factor simulating real git activity
+        const weight = Math.random();
+        if (weight > 0.85) cell.classList.add('v4');
+        else if (weight > 0.65) cell.classList.add('v3');
+        else if (weight > 0.45) cell.classList.add('v2');
+        else if (weight > 0.25) cell.classList.add('v1');
+        
+        heatmapGrid.appendChild(cell);
+    }
+</script>
+
+</body>
+</html>
