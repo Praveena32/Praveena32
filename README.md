@@ -1,13 +1,13 @@
 <!-- HEADER / HERO LAYOUT WITH TOP AVATAR -->
-<p align="left"><h1>Hi there👋,<br>
-<align="center">I'm <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=2000&color=8A2BE2&center=false&vCenter=true&width=400&height=45&lines=Praveena+Buddhini" alt="Praveena Buddhini" valign="middle" />
+<p align="left"><h1>Hi there<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" >,<br>
+&nbsp;&nbsp;<align="center">I'm <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=2000&color=8A2BE2&center=false&vCenter=true&width=400&height=45&lines=Praveena+Buddhini" alt="Praveena Buddhini" valign="middle" />
 <br/><br>
 <samp align="left">
   <b><p align="center"> &lt; Software Engineer | Full-Stack Developer | Mobile App Developer |   UI/UX Designer | AI Enthusiast /&gt;</p></b>
 <br>
   
 <img src="can_u_make_this_as_a_animated (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
-      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering, and design.I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</b>.
+      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering and design. I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</h6></b>
       </p><br>
 <p align="left"><strong>
   $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT Undergraduate}}\space}}$<br><br>
@@ -19,7 +19,7 @@
       <br>
 </p>
 </samp>
-</h6>
+
 
 ### 🛠️ Dashboard
         
