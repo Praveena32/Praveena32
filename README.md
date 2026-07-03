@@ -8,7 +8,7 @@
   
 <img src="can_u_make_this_as_a_animated (1) (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
       <br />
-      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering, AI, and design.
+      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering, and design.I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</b>.
       </p><br><br>
 <p align="left"><strong>
   $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT Undergraduate}}\space}}$<br><br>
@@ -29,13 +29,19 @@
 
 ## 👩‍💻 About Me
 
-- 🎓 Third-Year **Bachelor of Information and Communication Technology (Honours)** Undergraduate at the **University of Vavuniya**
+- 🎓 I’m Third-Year **Bachelor of Information and Communication Technology (Honours)** Undergraduate at the **University of Vavuniya**
   
-- 💻 Passionate about **Software Engineering**, **Full-Stack Development**, **Mobile App Development**, and **UI/UX Design**
+- 💻 I’m passionate about **Software Engineering**, **Full-Stack Development**, **Mobile App Development**, and **UI/UX Design**
   
-- 🌱 Currently learning **React Native**, **Docker**, **Java**, **.NET**, and modern software engineering practices
+- 🌱 I’m currently learning **React Native**, **Docker**, **Java**, **.NET**, **exploring advanced AI concepts** and **modern software engineering practices**
   
-- 🤖 Interested in **Artificial Intelligence**, **Prompt Engineering**, **Java** and Human-Centered Design
+- 🤖 I’m interested in **Artificial Intelligence**, **Prompt Engineering**, **Java** and Human-Centered Design
+
+- 👯 I’m looking to collaborate on innovative open-source projects, hackathons, and creative UI/UX challenges.
+  
+- 💬 Ask me about **React Native, UI/UX design, or Full-Stack Development**.
+  
+- ⚡ Fun fact: I thrive in competitive tech events! I was a Top 11 Finalist in the Hackforce'25 Salesforce Hackathon and placed 6th in the INNOVA Ideathon 2025.
   
 - 🚀 Love turning ideas into real-world applications
 
@@ -70,13 +76,13 @@
 
 ### 🚀 Featured Projects
   
-- **📱 [Nivora](https://github.com/Praveena32):** AI-powered emotional wellness mobile application built with React Native & Expo.
+- **📱 [Nivora](https://github.com/Praveena32/Nivora-mobile-application.git):** AI-powered emotional wellness mobile application built with React Native & Expo.
   
-- **🍽 [Dishvana](https://github.com/Praveena32):** Modern restaurant website with responsive UI and interactive user experience.
+- **🍽 [Dishvana](https://github.com/Praveena32/Web-Project-Dishvana.git):** Modern restaurant website with responsive UI and interactive user experience.
   
-- **🎓 [SUAMS](https://github.com/Praveena32):** Smart University Attendance Management System.
+- **🎓 [SUAMS](https://github.com/Praveena32/smart-attendance.git):** Smart University Attendance Management System.
   
-- **🌍 [Personal Portfolio](https://github.com/Praveena32):** Responsive portfolio showcasing projects, skills, and achievements.
+- **🌍 [Personal Portfolio](https://github.com/Praveena32/Portfolio.git):** Responsive portfolio showcasing projects, skills, and achievements.
   
 - **✈️ [Wannasolo](https://github.com/Praveena32):** UI/UX prototype for a solo travel planning application.
 <br>
