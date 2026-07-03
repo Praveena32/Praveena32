@@ -156,21 +156,35 @@
 </p>
 
 <br />
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" title="LinkedIn" />
-  </a>
-  <img width="20" />
-  <a href="mailto:mpbkalpana22@gmail.com" target="_blank">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" height="40" alt="Email" title="Email" />
-  </a>
-  <img width="20" />
-  <a href="https://praveenabuddhini.vercel.app/" target="_blank">
-    <img src="https://cdn.simpleicons.org/vercel/white" height="40" alt="Portfolio" title="Portfolio" />
-  </a>
-</p>
-
+<table>
+  <tr>
+    <td width="210">
+      <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="35" align="left" alt="LinkedIn" />
+      </a>
+      <div align="right">
+        <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank"><b>LinkedIn</b></a>
+      </div>
+    </td>
+    <td width="170">
+      <a href="mailto:mpbkalpana22@gmail.com" target="_blank">
+        <img src="https://cdn.simpleicons.org/gmail/EA4335" height="35" align="left" alt="Email" />
+      </a>
+      <div align="right">
+        <a href="mailto:mpbkalpana22@gmail.com" target="_blank"><b>Email</b></a>
+      </div>
+    </td>
+    <td width="220">
+      <a href="https://praveenabuddhini.vercel.app/" target="_blank">
+        <img src="https://cdn.simpleicons.org/vercel/white" height="35" align="left" alt="Portfolio" />
+      </a>
+      <div align="right">
+        <a href="https://praveenabuddhini.vercel.app/" target="_blank"><b>Portfolio</b></a>
+      </div>
+    </td>
+  </tr>
+</table>
+</table>
 <br />
 
 <p align="center">
