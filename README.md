@@ -6,7 +6,7 @@
   <b><p align="center"> &lt; Software Engineer | Full-Stack Developer | Mobile App Developer |   UI/UX Designer | AI Enthusiast /&gt;</p></b>
 <br>
   
-<img src="can_u_make_this_as_a_animated (1) (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
+<img src="can_u_make_this_as_a_animated (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
       <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering, and design.I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</b>.
       </p><br>
 <p align="left"><strong>
