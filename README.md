@@ -20,11 +20,6 @@
 </p>
 </samp>
 
-
-### 🛠️ Dashboard
-        
----
-
 ## 👩‍💻 About Me
 
 - 🎓 I’m Third-Year **Bachelor of Information and Communication Technology (Honours)** Undergraduate at the **University of Vavuniya**
@@ -45,7 +40,7 @@
 
 ---
 
-### 📊 Real-Time GitHub Analytics
+## 📊 Real-Time GitHub Analytics
 <!-- STREAK ROW WITH THEMED HOODIE OCTOCAT AS AN ASSET ICON -->
 <table>
   <br>
@@ -72,7 +67,7 @@
 
 ---
 
-### 🚀 Featured Projects
+## 🚀 Featured Projects
   
 - **📱 [Nivora](https://github.com/Praveena32/Nivora-mobile-application.git):** AI-powered emotional wellness mobile application built with React Native & Expo.
   
@@ -87,7 +82,7 @@
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 ### 💻 Languages
 <p>
