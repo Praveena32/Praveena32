@@ -8,7 +8,7 @@
   
 <img src="can_u_make_this_as_a_animated (1) (1).gif" width="350" height="500" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
       <br />
-      <p align="left"><h4>Passionate about building innovative, user-centered digital experiences through software engineering, AI, and design.
+      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering, AI, and design.
       </p><br><br>
 <p align="left"><strong>
   $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT Undergraduate}}\space}}$<br><br>
@@ -21,10 +21,7 @@
 </p>
 </samp>
 <br clear="right" />
-<p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1500&color=DF009F&center=false&vCenter=true&width=500&height=40&lines=%E2%9A%99%EF%B8%8F+Developing+Full-Stack+Apps...;%F0%9F%93%B1+Building+Mobile+Experiences...;%F0%9F%8E%A8+Designing+Stunning+UI%2FUX...;%F0%9F%A4%96+Exploring+AI+%26+Prompt+Eng..." alt="Roles Carousel" />
-</h1>
-</p>
+</h6>
 
 ### 🛠️ Dashboard
         
@@ -33,9 +30,13 @@
 ## 👩‍💻 About Me
 
 - 🎓 Third-Year **Bachelor of Information and Communication Technology (Honours)** Undergraduate at the **University of Vavuniya**
+  
 - 💻 Passionate about **Software Engineering**, **Full-Stack Development**, **Mobile App Development**, and **UI/UX Design**
+  
 - 🌱 Currently learning **React Native**, **Docker**, **Java**, **.NET**, and modern software engineering practices
+  
 - 🤖 Interested in **Artificial Intelligence**, **Prompt Engineering**, **Java** and Human-Centered Design
+  
 - 🚀 Love turning ideas into real-world applications
 
 ---
@@ -68,44 +69,59 @@
 ---
 
 ### 🚀 Featured Projects
-
+  
 - **📱 [Nivora](https://github.com/Praveena32):** AI-powered emotional wellness mobile application built with React Native & Expo.
+  
 - **🍽 [Dishvana](https://github.com/Praveena32):** Modern restaurant website with responsive UI and interactive user experience.
+  
 - **🎓 [SUAMS](https://github.com/Praveena32):** Smart University Attendance Management System.
+  
 - **🌍 [Personal Portfolio](https://github.com/Praveena32):** Responsive portfolio showcasing projects, skills, and achievements.
+  
 - **✈️ [Wannasolo](https://github.com/Praveena32):** UI/UX prototype for a solo travel planning application.
 <br>
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 ### 💻 Languages
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java" title="Java" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="40" alt="C#" title="C#" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" title="TypeScript" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height="40" alt="PHP" title="PHP" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="SQL" title="SQL" />
 </p>
+
 ### 🌐 Frontend & Mobile
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Expo-black?style=for-the-badge&logo=expo" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Tailwind_-06B6D4?style=for-the-badge&logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="40" alt="React Native" title="React Native" />
+  <img width="20" />
+  <img src="https://cdn.simpleicons.org/expo/white" height="40" alt="Expo" title="Expo" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="40" alt="React" title="React" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img width="20" />
+  <img src="https://cdn.simpleicons.org/framer/white" height="40" alt="Framer Motion" title="Framer Motion" />
 </p>
+
 ### ⚙️ Backend & Infrastructure
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js" />
-  <img src="https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" height="40" alt=".NET" title=".NET" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" title="Node.js" />
+  <img width="20" />
+  <img src="https://cdn.simpleicons.org/express/white" height="40" alt="Express" title="Express" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="40" alt="Docker" title="Docker" />
 </p>
 <br>
 
@@ -123,7 +139,11 @@
 <!-- FOOTER SECTION WITH LOWER EMBEDDED GRAPHIC CARD -->
 ## 📫 Connect with Me
 
-<br />
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1500&color=DF009F&center=false&vCenter=true&width=500&height=40&lines=%E2%9A%99%EF%B8%8F+Developing+Full-Stack+Apps...;%F0%9F%93%B1+Building+Mobile+Experiences...;%F0%9F%8E%A8+Designing+Stunning+UI%2FUX...;%F0%9F%A4%96+Exploring+AI+%26+Prompt+Eng..." alt="Roles Carousel" />
+
+</p>
+
 
 <p align="center">
   <img src="Gemini_Generated_Image_vqdnsuvqdnsuvqdn.png" width="100%" style="border-radius: 12px;" alt="Code Design Innovate Repeat Panel" />
@@ -132,14 +152,16 @@
 <br />
 
 <p align="left">
-  <a href="https://linkedin.com/in/praveena-buddhini" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn" title="LinkedIn" />
   </a>
-  <a href="mailto:mpbkalpana22@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img width="20" />
+  <a href="mailto:mpbkalpana22@gmail.com" target="_blank">
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" height="40" alt="Email" title="Email" />
   </a>
+  <img width="20" />
   <a href="https://praveenabuddhini.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://cdn.simpleicons.org/vercel/white" height="40" alt="Portfolio" title="Portfolio" />
   </a>
 </p>
 
