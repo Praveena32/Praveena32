@@ -10,7 +10,7 @@
       <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering and design. I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</h6></b>
       </p><br>
 <p align="left"><strong>
-  $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT Undergraduate}}\space}}$<br><br>
+  $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT(Hons.) Undergraduate}}\space}}$<br><br>
   $\color{#DF009F}{\boxed{\space\color{#DF009F}{\text{📍 Kalutara, Sri Lanka}}\space}}$<br/><br>
   $\color{#FF007F}{\boxed{\space\color{#FF007F}{\text{🚀 Always Learning}}\space}}$
  </p></strong><br>
