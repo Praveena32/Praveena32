@@ -151,7 +151,7 @@
 <br />
 <table>
   <tr>
-    <td width="210">
+    <td width="150">
       <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="35" align="left" alt="LinkedIn" />
       </a>
@@ -159,7 +159,7 @@
         <a href="https://www.linkedin.com/in/praveenabuddhini" target="_blank"><b>LinkedIn</b></a>
       </div>
     </td>
-    <td width="170">
+    <td width="130">
       <a href="mailto:mpbkalpana22@gmail.com" target="_blank">
         <img src="https://cdn.simpleicons.org/gmail/EA4335" height="35" align="left" alt="Email" />
       </a>
@@ -167,7 +167,7 @@
         <a href="mailto:mpbkalpana22@gmail.com" target="_blank"><b>Email</b></a>
       </div>
     </td>
-    <td width="220">
+    <td width="150">
       <a href="https://praveenabuddhini.vercel.app/" target="_blank">
         <img src="https://cdn.simpleicons.org/vercel/white" height="35" align="left" alt="Portfolio" />
       </a>
