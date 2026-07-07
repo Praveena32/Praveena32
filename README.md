@@ -115,6 +115,8 @@
   <img width="20" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="40" alt="React" title="React" />
   <img width="20" />
+  <img src="https://cdn.simpleicons.org/nextdotjs/white" height="40" alt="Next.js" title="Next.js" />
+  <img width="20" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" title="Tailwind CSS" />
   <img width="20" />
   <img src="https://cdn.simpleicons.org/framer/white" height="40" alt="Framer Motion" title="Framer Motion" />
@@ -127,6 +129,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" title="Node.js" />
   <img width="20" />
   <img src="https://cdn.simpleicons.org/express/white" height="40" alt="Express" title="Express" />
+  <img width="20" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" title="MongoDB" />
   <img width="20" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="40" alt="Docker" title="Docker" />
 </p>
