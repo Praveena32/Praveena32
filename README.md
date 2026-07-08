@@ -3,22 +3,21 @@
 &nbsp;&nbsp;<align="center">I'm <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=2000&color=8A2BE2&center=false&vCenter=true&width=400&height=45&lines=Praveena+Buddhini" alt="Praveena Buddhini" valign="middle" />
 <br/><br>
 <samp align="left">
-  <b><p align="center"> &lt; Software Engineer | Full-Stack Developer | Mobile App Developer |   UI/UX Designer | AI Enthusiast /&gt;</p></b>
+<b><p align="center"> &lt; Software Engineer | Full-Stack Developer | Mobile App Developer |   UI/UX Designer | AI Enthusiast /&gt;</p></b>
 <br>
-  
 <img src="can_u_make_this_as_a_animated (1).gif" width="350" height="480" align="right" style="float: right; margin-left: 5px;" alt="Praveena Coding" />
-      <p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering and design. I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</h6></b>
-      </p><br>
+<p align="left"><h6>Passionate about building innovative, user-centered digital experiences through software engineering and design. I am constantly exploring new technologies and currently diving deep into <b>AI & Prompt Engineering</h6></b>
+</p><br>
 <p align="left"><strong>
   $\color{#8A2BE2}{\boxed{\space\color{#8A2BE2}{\text{🎓 BICT(Hons.) Undergraduate}}\space}}$<br><br>
   $\color{#DF009F}{\boxed{\space\color{#DF009F}{\text{📍 Kalutara, Sri Lanka}}\space}}$<br/><br>
   $\color{#FF007F}{\boxed{\space\color{#FF007F}{\text{🚀 Always Learning}}\space}}$
  </p></strong><br>
-      <img src="https://komarev.com/ghpvc/?username=Praveena32&color=blue&style=flat-square" alt="Profile Views" />
-    <td width="100%" valign="middle" align="center">
-      <br>
-</p>
-</samp>
+ <img src="https://komarev.com/ghpvc/?username=Praveena32&color=blue&style=flat-square" alt="Profile Views" />
+ <td width="100%" valign="middle" align="center">
+ <br>
+ </p>
+ </samp>
 
 ## 👩‍💻 About Me
 
